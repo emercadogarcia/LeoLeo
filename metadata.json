@@ -1,0 +1,6 @@
+{
+  "name": "LeoLeo - Alfabetización Infantil",
+  "description": "Aplicación interactiva de alfabetización inicial en español para niños de 5 a 7 años. Fonemas, sílabas, palabras y oraciones con refuerzo positivo y control parental.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

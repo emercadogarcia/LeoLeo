@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9F1C" />
+      <stop offset="50%" stop-color="#FFBF69" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2EC4B6" />
+      <stop offset="100%" stop-color="#0E9F8F" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Star sparkles -->
+  <circle cx="90" cy="110" r="14" fill="#FFE66D" />
+  <circle cx="420" cy="100" r="18" fill="#FFFFFF" opacity="0.8" />
+  <polygon points="120,70 126,85 142,88 130,99 134,115 120,105 106,115 110,99 98,88 114,85" fill="#FFFFFF" opacity="0.9"/>
+  <polygon points="400,200 405,212 418,214 408,223 411,236 400,228 389,236 392,223 382,214 395,212" fill="#FFE66D"/>
+
+  <!-- Open Book Base -->
+  <path d="M 120 380 Q 256 340 256 370 Q 256 340 392 380 L 380 430 Q 256 390 256 420 Q 256 390 132 430 Z" fill="url(#bookGrad)" />
+  <!-- Book Pages -->
+  <path d="M 130 370 Q 256 335 256 360 L 256 410 Q 256 385 140 420 Z" fill="#FFFFFF" />
+  <path d="M 382 370 Q 256 335 256 360 L 256 410 Q 256 385 372 420 Z" fill="#F8FAFC" />
+  <!-- Letter text accents on book -->
+  <text x="175" y="392" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#FF6B6B">A</text>
+  <text x="210" y="386" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#4ECDC4">B</text>
+  <text x="300" y="386" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#FF9F1C">C</text>
+  <text x="330" y="392" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#6C5CE7">1</text>
+
+  <!-- Cute Lion Face Center -->
+  <!-- Mane -->
+  <g id="mane">
+    <circle cx="256" cy="210" r="140" fill="#FF8400" />
+    <circle cx="170" cy="115" r="40" fill="#FFA500" />
+    <circle cx="256" cy="90" r="42" fill="#FFA500" />
+    <circle cx="342" cy="115" r="40" fill="#FFA500" />
+    <circle cx="385" cy="185" r="40" fill="#FFA500" />
+    <circle cx="385" cy="265" r="40" fill="#FFA500" />
+    <circle cx="127" cy="185" r="40" fill="#FFA500" />
+    <circle cx="127" cy="265" r="40" fill="#FFA500" />
+  </g>
+
+  <!-- Ears -->
+  <circle cx="160" cy="130" r="30" fill="#FF8400" />
+  <circle cx="160" cy="130" r="18" fill="#FFB4A2" />
+  <circle cx="352" cy="130" r="30" fill="#FF8400" />
+  <circle cx="352" cy="130" r="18" fill="#FFB4A2" />
+
+  <!-- Head -->
+  <circle cx="256" cy="225" r="105" fill="#FFD166" />
+
+  <!-- Rosy Cheeks -->
+  <ellipse cx="195" cy="255" rx="18" ry="12" fill="#FF6B6B" opacity="0.6" />
+  <ellipse cx="317" cy="255" rx="18" ry="12" fill="#FF6B6B" opacity="0.6" />
+
+  <!-- Eyes with sparkle -->
+  <ellipse cx="205" cy="205" rx="14" ry="18" fill="#2B2D42" />
+  <circle cx="201" cy="198" r="5" fill="#FFFFFF" />
+  <circle cx="210" cy="210" r="2.5" fill="#FFFFFF" />
+
+  <ellipse cx="307" cy="205" rx="14" ry="18" fill="#2B2D42" />
+  <circle cx="303" cy="198" r="5" fill="#FFFFFF" />
+  <circle cx="312" cy="210" r="2.5" fill="#FFFFFF" />
+
+  <!-- Nose & Smile -->
+  <polygon points="256,242 244,228 268,228" fill="#843B62" rx="4" />
+  <path d="M 256 242 L 256 256" stroke="#843B62" stroke-width="4" stroke-linecap="round" />
+  <path d="M 234 256 Q 256 274 256 256 Q 256 274 278 256" fill="none" stroke="#843B62" stroke-width="4" stroke-linecap="round" />
+  <ellipse cx="256" cy="265" rx="10" ry="6" fill="#FF6B6B" />
+
+  <!-- Whiskers -->
+  <line x1="165" y1="240" x2="135" y2="235" stroke="#E09F3E" stroke-width="3" stroke-linecap="round" />
+  <line x1="165" y1="250" x2="132" y2="255" stroke="#E09F3E" stroke-width="3" stroke-linecap="round" />
+  <line x1="347" y1="240" x2="377" y2="235" stroke="#E09F3E" stroke-width="3" stroke-linecap="round" />
+  <line x1="347" y1="250" x2="380" y2="255" stroke="#E09F3E" stroke-width="3" stroke-linecap="round" />
+</svg>
